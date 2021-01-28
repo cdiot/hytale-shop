@@ -1,0 +1,79 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block carousel %}{% endblock %}
+
+{% block content %}
+
+
+    <div class="row pt-5 mt-3">
+        <div class="col-lg-4  mb-5 text-lg-left">
+            <div class="white-text text-center">
+                <div class="row">
+                    <span class="text-dark h1 font-weight-bold">SERVEUR</span>
+                    <span class="text-dark text-muted">boutique</span>
+                </div>
+                <hr class="hr-light" data-wow-delay="0.3s">
+                <!--Twitter-->
+                <button type="button" class="btn btn-fb"><i class="fab fa-twitter"></i> Twitter</button>
+                <!--Discord-->
+                <button type="button" class="btn btn-tw"><i class="fab fa-discord"></i> Discord</button>
+                <!--Youtube-->
+                <button type="button" class="btn btn-yt"><i class="fab fa-youtube"></i> Youtube</button>
+                <hr class="hr-light" data-wow-delay="0.3s">
+                <span>Mots de l'équipe: "
+                        Bientôt l'ouverture du serveur, rejoignez-nous pour de nouvelles aventures."</span>
+                <hr class="hr-light" data-wow-delay="0.3s">
+                <span>Serveur ip : 192.156.1.1</span>
+                <hr class="hr-light" data-wow-delay="0.3s">
+            </div>
+        </div>
+        <div class="col-lg-8 pb-5">
+            <div class="embed-responsive embed-responsive-16by9 wow fadeInRight">
+                <img class="embed-responsive-item" src="http://placehold.it/850x460" allowfullscreen>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row mb-2">
+        <h1 class="h1-responsive" data-wow-delay="0.3s">Notre selection</h1>
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-primary">Equipement</strong>
+                    <h3 class="mb-0">
+                        <a class="text-dark" href="#">Armure en diamand</a>
+                    </h3>
+                    <div class="mb-1 text-muted">0.99 euro</div>
+                    <p class="card-text mb-auto">Armure complète avec épée, hache et pioche tout cela en diamant.
+                    </p>
+                    <a href="unique.html">En voir plus</a>
+                </div>
+                <img class="card-img-right" src="http://placehold.it/200x300" alt="Armure en diamand - Equipement"
+                     style="width: 200px; height: 250px;">
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-success">Pack</strong>
+                    <h3 class="mb-0">
+                        <a class="text-dark" href="#">Pack debutant</a>
+                    </h3>
+                    <div class="mb-1 text-muted">1.19 euro</div>
+                    <p class="card-text mb-auto">Un pack idéal pour débuter, composé d'un équipement en fer
+                        enchanter ainsi que d'un item permettant de protéger une petite parcelle sécurisée de 15
+                        blocs
+                        sur 15 de largeur.</p>
+                    <a href="unique.html">En voir plus</a>
+                </div>
+                <img class="card-img-right" src="http://placehold.it/200x300" alt="pack debutant - Pack"
+                     style="width: 200px; height: 250px;">
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
